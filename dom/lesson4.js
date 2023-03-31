@@ -2,7 +2,7 @@
 //  console.log(title)
 
 
-//  let pra =document.getElementsByClassName('pra')
+//  let pra = document.getElementsByClassName('pra')
 //  console.log(pra)
 
 //  let lists = document.getElementsByTagName('li')
