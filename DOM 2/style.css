@@ -5,7 +5,7 @@
 }
 
 body{
-  background-color: aquamarine;
+  background-color: rgb(80, 80, 80);
   color: aliceblue;
   text-shadow: 2px 2px 2px #0000005e;
   display: flex;
@@ -14,11 +14,66 @@ body{
 .container{
   width: 80%;
   height: 100%;
-  padding: 40px;
+  /* padding: 40px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
 
 h1{
-  text-transform: uppercase;
+  text-transform: capitalize;
   text-align: center;
   letter-spacing: 3px;
+}
+
+button {
+  height: 30px;
+   padding: 4px 10px;
+  background-color: aqua;
+  border: 0;
+  box-shadow: 0px 2px 3px #000 ;
+  border-radius: 7px;
+  margin: 20px;
+  font-weight: 700;
+}
+
+
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#container01 {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  background: yellow;
+  margin: 30px;
+}
+#animate {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background: red;
+}
+
+.timeDiv{
+  padding: 3px 7px;
+  border-left: 1px solid #999797 ;
+  border-bottom: 1px solid #999797 ;
+}
+
+
+.yellowCon{
+  width: 200px;
+  
+  background-color: yellow;
+  color: #000;
+  margin: 40px;
+  text-align: center;
+  padding: 20px;
 }

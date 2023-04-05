@@ -10,6 +10,40 @@
 <body>
   <div class="container">
     <h1 id="h1">hello</h1>
+   
+    <div class="center">
+      <button onclick="styling()">chang</button>
+      <button onclick="styling2()">chang</button>
+    </div>
+
+  <!-- <div id ="container01">
+    <div id ="animate"> </div>
+  </div> 
+  <button onclick="myMove() ">Move</button> -->
+
+
+
+  <div id ="container01">
+    <div id ="animate"> </div>
+  </div> 
+  <button onclick="myMoveLeft() ">Move</button>
+  <button onclick="myMoveRight() ">Move</button>
+   
+
+  <h1 id="title" onclick="this.innerHTML = 'saimun'" >Hello I am </h1>
+   
+   <h1 onclick="cText(this)"> Click on this text</h1>
+
+  <button onclick="displayDate()">Time & Date</button>
+  <div class="timeDiv">
+    <p id="time"></p>
+  </div>
+
+   <div onmouseover="mOver(this)" onmouseout="mOut(this)" class="yellowCon">I am</div>
+
+  <div onmousedown="mDown(this)" onmouseup="mUp(this)" class="yellowCon">Click here</div>
+
+  Enter your name : <input type="text" onfocus="mFo(this)">
   </div>
   <script src="./index.js"></script>
 </body>
